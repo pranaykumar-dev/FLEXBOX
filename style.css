@@ -72,12 +72,26 @@ h3 {
     height: 100px;
     color: blue;
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.3s ease;
+    opacity: 0.5;
+     
+
+
 }
+
+ 
  
 .btn:hover ~ .container {
     justify-content: right;
     
+}
+.box:hover {
+    transform: rotate(45deg);
+    border-radius: 50%;
+    opacity: 1;
+    
+
 }
  
 .container2 {
@@ -98,12 +112,18 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(15, 15, 15);
+    transition: 0.3s ease;
 }
 .btn2:hover ~ .container2 {
     justify-content: left;
     
     
+}
+.box2:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* center  */
 .container3 {
@@ -123,11 +143,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(14, 9, 9);
+    transition: 0.3s ease;
 }
 .btn3:hover ~ .container3 {
     justify-content: center;
     
+}
+.box3:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* space-around */
 .container4 {
@@ -147,14 +173,20 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 8, 8);
+    transition: 0.3s ease;
 }
 .btn4:hover ~ .container4 {
     justify-content: space-around;
     
 }
+.box4:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
+}
 /* space around  */
-.container4 {
+.container04 {
     background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
     height: 150px;
     width: 800px;
@@ -165,17 +197,23 @@ h3 {
     
 
 }
-.box4{
+.box04{
     display: flex;
     width: 100px;
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 2, 2);
+    transition: 0.3s ease;
 }
-.btn4:hover ~ .container4 {
+.btn04:hover ~ .container04 {
     justify-content: space-around;
     
+}
+.box04:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* space between */
 .container5 {
@@ -195,11 +233,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 8, 8);
+    transition: 0.3s ease;
 }
 .btn5:hover ~ .container5{
     justify-content: space-between;
     
+}
+.box5:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* space evenly  */
 .container6 {
@@ -219,11 +263,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(10, 3, 3);
+    transition: 0.3s ease;
 }
 .btn6:hover ~ .container6 {
     justify-content: space-evenly;
     
+}
+.box6:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* start */
 .container7 {
@@ -242,12 +292,18 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(7, 2, 2);
+    transition: 0.3s ease;
 }
 .btn7:hover ~ .container7 {
     justify-content: start;
     
 } 
+.box7:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
+}
 /* end */
 .container8{
     background-image: linear-gradient(to bottom,  #f8ca00, #fff);    
@@ -265,11 +321,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 6, 6);
+    transition: 0.3s ease;
 }
 .btn8:hover ~ .container8 {
     justify-content: end;
     
+}
+.box8:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* center */
 .container9 {
@@ -288,11 +350,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(5, 2, 2);
+    transition: 0.3s ease;
 }
 .btn9:hover ~ .container9 {
     justify-content: space-between;
     
+}
+.box9:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* space between */
 .container10 {
@@ -311,11 +379,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(7, 3, 3);
+    transition: 0.3s ease;
 }
 .btn10:hover ~ .container10 {
     justify-content: space-between;
     
+}
+.box10:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* space around */
 .container11 {
@@ -334,11 +408,17 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(8, 2, 2);
+    transition: 0.3s ease;
 }
 .btn11:hover ~ .container11 {
     justify-content: space-around;
     
+}
+.box11:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 /* evenly */
 .container12 {
@@ -358,14 +438,23 @@ h3 {
     height: 100px;
     color: rgb(247, 51, 21);
     background-color: aquamarine;
-    border: 2px solid red;
+    border: 2px solid rgb(5, 2, 2);
+    transition: 0.3s ease;
 }
 .btn12:hover ~ .container12 {
     justify-content: space-evenly;
     
+}
+.box12:hover {
+    transform: rotate(30deg);
+    border-radius: 50%;
+
 }
 footer h3 {
     background-color: #fff;
     color: black;
     text-align: center;
 }
+
+/* ALIGN ITEMS */
+ 
